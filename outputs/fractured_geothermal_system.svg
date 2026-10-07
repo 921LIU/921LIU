@@ -1,0 +1,600 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="fractured-hot-rock-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#edd7bb" />
+      <stop offset="1" stop-color="#e5b983" />
+    </linearGradient>
+    <linearGradient id="residential-building-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e5f2f8" />
+      <stop offset="1" stop-color="#c4dce8" />
+    </linearGradient>
+  </defs>
+  <g id="background">
+    <rect x="0" y="0" width="1600" height="1000" fill="#fcfdff" stroke-width="1" rx="0" />
+    <rect x="749" y="212" width="393" height="312" fill="#eff8f7" stroke="#afd6d1" stroke-width="1.5" rx="17" />
+    <text id="system-title" x="800" y="62" fill="#0d3558" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="40" font-weight="bold" text-anchor="middle">裂隙型中深层地热—热泵耦合供暖系统</text>
+    <text id="system-subtitle" x="800" y="101" fill="#597487" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="normal" text-anchor="middle">地热水开采与回灌 · 板式换热隔离 · 热泵温度提升 · 建筑闭式供暖</text>
+    <line x1="60" y1="126" x2="1540" y2="126" stroke="#d7e5ee" stroke-width="1.5" />
+  </g>
+  <g id="process-section-headings">
+    <rect x="60" y="150" width="420" height="43" fill="#b05d2e" stroke-width="1" rx="12" />
+    <text id="section-1" x="270.0" y="179" fill="#fff" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">01  地热开采与回灌</text>
+    <rect x="512" y="150" width="190" height="43" fill="#467b91" stroke-width="1" rx="12" />
+    <text id="section-2" x="607.0" y="179" fill="#fff" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">02  隔离换热</text>
+    <rect x="748" y="150" width="394" height="43" fill="#217b82" stroke-width="1" rx="12" />
+    <text id="section-3" x="945.0" y="179" fill="#fff" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">03  热泵温度提升</text>
+    <rect x="1172" y="150" width="368" height="43" fill="#c2693f" stroke-width="1" rx="12" />
+    <text id="section-4" x="1356.0" y="179" fill="#fff" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">04  建筑供暖</text>
+  </g>
+  <g id="geological-cross-section">
+    <rect x="60" y="555" width="650" height="378" fill="#e7ded3" stroke="#c9d3d7" stroke-width="1.3" rx="12" />
+    <rect x="61" y="556" width="648" height="88" fill="#e5e9df" stroke-width="1" rx="10" />
+    <path d="M 61 633 Q 210 644 354 634 T 709 643 V 756 Q 550 744 379 756 T 61 750 Z" fill="#d3cabc" stroke-width="1" />
+    <path d="M 61 746 Q 236 765 394 750 T 709 753 V 923 Q 550 935 371 925 T 61 927 Z" fill="url(#fractured-hot-rock-gradient)" stroke-width="1" />
+    <line x1="60" y1="555" x2="710" y2="555" stroke="#709482" stroke-width="4" />
+    <text id="overburden-label" x="565" y="601" fill="#62756b" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="normal" text-anchor="middle">浅部地层</text>
+    <text id="caprock-label" x="570" y="686" fill="#7b7468" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="normal" text-anchor="middle">
+      <tspan x="570" dy="0">低渗覆盖层</tspan>
+      <tspan x="570" dy="27.55">（示意）</tspan>
+    </text>
+    <g id="interconnected-fracture-network">
+      <path d="M 132 858 L 187 823 L 243 849 L 298 810 L 354 838 L 410 851 L 460 821 L 523 842 L 600 805 L 685 830" fill="none" stroke="#9e7857" stroke-width="3" stroke-linejoin="round" id="fracture-1" />
+      <path d="M 125 906 L 182 870 L 239 888 L 295 847 L 353 884 L 413 856 L 471 892 L 524 852 L 595 880 L 660 841" fill="none" stroke="#9e7857" stroke-width="3" stroke-linejoin="round" id="fracture-2" />
+      <path d="M 205 785 L 230 831 L 243 849 L 239 888 L 261 924" fill="none" stroke="#9e7857" stroke-width="2" stroke-linejoin="round" id="fracture-3" />
+      <path d="M 299 780 L 298 810 L 295 847 L 285 877 L 310 928" fill="none" stroke="#9e7857" stroke-width="2" stroke-linejoin="round" id="fracture-4" />
+      <path d="M 356 774 L 354 838 L 353 884 L 371 931" fill="none" stroke="#9e7857" stroke-width="2" stroke-linejoin="round" id="fracture-5" />
+      <path d="M 453 770 L 460 821 L 471 892 L 465 929" fill="none" stroke="#9e7857" stroke-width="2" stroke-linejoin="round" id="fracture-6" />
+      <path d="M 542 779 L 523 842 L 524 852 L 550 925" fill="none" stroke="#9e7857" stroke-width="2" stroke-linejoin="round" id="fracture-7" />
+      <path d="M 623 756 L 600 805 L 595 880 L 631 929" fill="none" stroke="#9e7857" stroke-width="2" stroke-linejoin="round" id="fracture-8" />
+      <path d="M 110 798 L 163 805 L 187 823 L 182 870 L 162 919" fill="none" stroke="#9e7857" stroke-width="2" stroke-linejoin="round" id="fracture-9" />
+      <path d="M 132 858 L 193 853 L 244 862 L 295 847 L 351 856 L 413 856" fill="none" stroke="#9e7857" stroke-width="2" stroke-linejoin="round" id="fracture-10" />
+    </g>
+    <circle cx="373.1829621442769" cy="868.8806554198463" r="1.1664104711248382" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="166.69741951957877" cy="766.7159500082307" r="0.8747544920633644" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="248.45794275552214" cy="893.0349922531432" r="1.1905926530386846" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="452.10627808865" cy="853.194027545029" r="1.1613210858720011" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="168.37833830968407" cy="834.5286571241136" r="0.6622673223888886" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="641.5151945112386" cy="774.2942437309168" r="1.3188201278420804" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="124.40719212151578" cy="873.5373896467796" r="0.8369995927917676" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="329.6700841060198" cy="898.0997321143848" r="0.5186043003120028" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="115.80808102953864" cy="909.5753156587716" r="1.0089259164277014" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="134.58830919443884" cy="920.96717048408" r="1.4467130187432706" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="147.99218968345045" cy="831.8666447361468" r="0.635069500949164" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="272.4003117875908" cy="863.1894078268863" r="0.6635241283189813" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="511.43105206510154" cy="773.1138241120708" r="0.6712140925768588" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="585.3639372140238" cy="828.2819542137933" r="0.9188402121376166" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="448.693947613873" cy="840.32938268981" r="0.8845813910748747" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="96.96750547388774" cy="879.7597335209018" r="1.4674588828672945" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="685.2609446622729" cy="869.8481748650005" r="0.8563451911590085" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="303.86596233199526" cy="874.0380852738311" r="1.1737728216491834" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="148.8037535025099" cy="802.125643513849" r="0.8633223799710424" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="396.0600121658214" cy="892.9969175225716" r="1.0000121234313284" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="95.50511219299807" cy="894.9656836966811" r="0.9301543759756891" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="400.8163232953166" cy="800.1025363262995" r="0.9272430542370935" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="319.489086979181" cy="886.9631351675955" r="0.602613179037688" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="420.0821897032746" cy="793.1318253749683" r="1.1958955397739035" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="100.91826773901327" cy="808.6945254410159" r="0.8441784873758837" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="474.17023399096047" cy="773.225293526164" r="0.9592620385311957" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="207.86951597979873" cy="809.53953598432" r="0.9762624330591243" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="674.3413188915383" cy="841.0018718682688" r="1.4558918773273262" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="182.2241874267194" cy="911.0314593219708" r="0.8641927777372398" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="195.70247853342013" cy="883.2673883493371" r="1.412041892162811" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="82.15138478180936" cy="807.3841396618004" r="1.2706727594239515" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="290.59321745987154" cy="803.1707030803074" r="0.5086298547789948" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="102.89426948114973" cy="862.8141809727045" r="1.4838150692057024" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="699.0639744696151" cy="844.5687179897684" r="0.5239095682465067" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="278.5678969963097" cy="889.4095374318721" r="1.3319542801338466" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="475.71368111269766" cy="801.2632475040826" r="1.0272370763287078" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="374.935645361416" cy="864.0666873595894" r="0.762678076956652" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="666.8333505294089" cy="906.3023095334531" r="0.6621476445257444" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="259.20189778284555" cy="902.9607970063942" r="0.7783050412684764" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="665.1080772896532" cy="846.397177496229" r="1.1959713954113311" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="516.3207810423561" cy="798.8229819534213" r="0.7850206309630013" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="236.57367382748228" cy="872.9605976982664" r="1.194104723835435" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="159.93718727744215" cy="905.0570496618847" r="0.9203228513775645" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="228.04573972945656" cy="833.7740808765573" r="1.4794775475471322" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="426.27756819625944" cy="863.7087096688933" r="1.419934108379581" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="676.356348473007" cy="885.1486182227309" r="0.9176558064756952" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="444.0068448913581" cy="907.3519286062374" r="1.289232814304469" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="438.8617374033456" cy="819.9015408221032" r="0.8684701073025423" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="535.6895669661052" cy="854.0057037876991" r="0.5171120143592879" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="519.7016801288263" cy="907.8013999825823" r="1.2977312806094494" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="636.2304400458977" cy="908.8606198999635" r="1.0349338144076543" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="568.8302552448413" cy="824.9564713627154" r="0.5982938014737049" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="297.67123575150595" cy="814.3138887641588" r="1.4340234234405675" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="506.6279963184168" cy="850.5748118288236" r="1.122108426773059" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="155.57611887016017" cy="849.4122762578907" r="1.20061894267143" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="323.16566588867374" cy="803.8299460808462" r="0.9068823110741296" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="279.27495641429" cy="873.2743691245463" r="0.6418086341510095" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="134.31431652818662" cy="814.3714122852242" r="1.1957714198508334" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="550.4879921970748" cy="869.1841190954124" r="1.434706631571226" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="305.4059936206478" cy="769.6989658850939" r="0.9878228129669406" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="353.9746227256995" cy="793.3403695743772" r="1.167396601991424" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="290.26686480809894" cy="802.6584493794835" r="0.8274493895238314" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="665.0412019456616" cy="766.2204581967952" r="0.8603109670168498" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="251.96901750523088" cy="796.8110011278033" r="0.9324544988278585" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="215.07615433038282" cy="910.1801043687589" r="1.001034557094322" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="512.2145593972817" cy="790.650692992745" r="0.9646301447514719" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="455.26185434724204" cy="898.1746175404733" r="0.7498762939883139" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="363.8910855989401" cy="900.0615373982473" r="1.3316700069031133" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="219.50804604209335" cy="850.0024826408951" r="1.2612978129973422" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="323.8705042922255" cy="871.395406436226" r="1.1632734317499982" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="682.8548980066852" cy="852.5133053222686" r="1.1807831698064306" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="295.84259603883686" cy="880.6963377944195" r="0.822264595144001" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="388.93791432026165" cy="822.0127337272497" r="0.8071971250351975" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="162.53723911000668" cy="800.6565334986269" r="1.044300393272148" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="234.65081909034788" cy="772.2538477316212" r="1.3036078390835635" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="255.662419632815" cy="912.909176760481" r="1.098790483793615" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="320.00634748965376" cy="902.9494615251489" r="1.3972224563897102" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="277.6416021151617" cy="784.8826085997338" r="1.14094436192942" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="602.1514859453432" cy="861.1434453411538" r="1.2843352062882412" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="334.5272931726692" cy="862.6129595193245" r="0.763198780565278" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="331.09333971229614" cy="824.9909332976306" r="0.8846502299598575" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="326.52109447682665" cy="892.5348337655322" r="0.66982672206149" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="205.56573901947255" cy="805.2383041778594" r="1.471040593593644" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="403.15116073287504" cy="773.361943537042" r="1.3353954006210182" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="621.338129144111" cy="894.7415026652577" r="0.8587942196450715" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="534.9514752861288" cy="813.2682287826208" r="0.6372760970812569" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="616.2042231519999" cy="896.6198558798574" r="0.7112074997201809" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="625.2412156361019" cy="768.8854761852797" r="0.8084141838742047" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="86.05836287142073" cy="792.0247461414004" r="0.6632587104803426" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="523.2458502127054" cy="811.8608338569361" r="0.6900529636556854" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="192.4857035213376" cy="814.2899968049975" r="1.3621704878041274" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="455.46923943250926" cy="781.167928409656" r="1.1849938295650253" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="411.54513912317066" cy="835.8554696105795" r="1.0275703669057" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="483.2306010034492" cy="891.5118838254774" r="1.0052812806246285" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="473.3116377927651" cy="838.8319744932043" r="1.134066252711196" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="319.63401259830715" cy="830.5492387790574" r="1.0166573526574094" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="522.7375646199825" cy="809.0043064150562" r="1.4248623934019722" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="383.7415861854339" cy="900.1703715018714" r="1.1903973452972838" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="672.8358791062469" cy="872.8273252233623" r="0.9268336858508603" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="330.4479919430818" cy="861.0135641041868" r="1.2538705548033002" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="599.8888276836825" cy="785.4309775758506" r="0.5623860450960805" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="145.26503249365186" cy="778.3106715181802" r="0.5564311358101527" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="83.22664451858182" cy="804.4247786618462" r="0.6131741232171846" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="504.2206036843357" cy="862.2984165542617" r="1.4656566882560107" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="675.4421449640032" cy="882.9825381159193" r="1.449615150523461" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="95.45784834743982" cy="801.0143571552433" r="1.4261514976872525" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="373.73230449388404" cy="797.6413424672764" r="1.2568060780818002" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="341.4470802562605" cy="850.8087284655053" r="0.8159295231111692" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="228.3504386473525" cy="778.7737691525529" r="1.106852623353352" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="670.6085290799253" cy="920.902876242282" r="1.2652271813568707" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="658.57926590946" cy="822.2319957051807" r="0.7981765353862709" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="652.4209700675968" cy="859.8188495904093" r="1.1691025069193919" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="85.79987484840873" cy="801.1079904397492" r="0.9824218931490709" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="532.6810090656688" cy="895.4769363555461" r="1.2572984868118664" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="289.2905332110025" cy="825.2970046468769" r="1.3623543596400751" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="693.5103559391107" cy="841.6290479609492" r="0.6947671017752866" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="466.3994303591224" cy="849.6761026076164" r="0.861665860297864" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="221.377423259053" cy="825.8849265732612" r="1.1123986882300105" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="156.89191826829824" cy="850.4670436625455" r="1.4523007828023" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="541.3545243558954" cy="804.8365430404199" r="0.9184778183014373" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="141.6527589274861" cy="881.4543369317739" r="1.1318629495236188" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="185.49607263195284" cy="851.5946373541036" r="1.0958547340411968" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="437.0065394179382" cy="824.7863171774285" r="0.8098382754201858" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="298.71329440193335" cy="922.6147756781644" r="0.8303561951481901" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="390.53689059719153" cy="837.6671111527472" r="0.6730107041052386" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="326.65090974548184" cy="797.3836710644913" r="0.822336045060564" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="306.3584892537379" cy="820.2835688264892" r="1.4379414777595734" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="262.6522382884053" cy="817.5161277703435" r="1.1575498181754122" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="325.0900449651922" cy="846.4864741855738" r="1.1475420485242755" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="123.82333695397418" cy="871.1073912756657" r="0.6011654054042603" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="233.64097961641937" cy="892.9442861281942" r="1.489549913187835" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="497.05954293420956" cy="792.1124005415669" r="0.9382620545368269" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="253.80390786964372" cy="897.9047616174414" r="0.7332136197962434" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="200.06732461151375" cy="865.8170605397054" r="1.1371834740947577" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="444.8233187038712" cy="840.657263707174" r="1.4590694256880317" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="363.1543416409757" cy="913.0492259145046" r="0.8917403626543372" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="367.45161439319355" cy="821.7860874022192" r="1.2151197113320458" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="545.4304817632458" cy="802.7920155618925" r="1.0260113238125497" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="529.8822589489673" cy="844.2469944369676" r="1.1623867654476763" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="461.2686832859578" cy="877.8646587853126" r="0.8552770048304683" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="268.6872873382872" cy="768.8958090077473" r="1.3903371741602057" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="569.303234261637" cy="826.6641538156089" r="1.467200571968328" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="639.3216609436895" cy="788.9379639999469" r="1.3366777637624931" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="339.76976007964595" cy="814.6533001089493" r="0.7591391535300073" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="335.3941057985082" cy="773.1847600226578" r="0.5504328940289429" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="150.6911549596239" cy="813.5539796860044" r="0.6584983558266612" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="153.7796826118236" cy="896.440463253635" r="0.8796624281418225" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="382.9527865144936" cy="859.997554307562" r="1.4329799428027896" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="168.87950983382194" cy="801.0358665587764" r="1.3603634575664056" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="643.8017855098802" cy="912.2239114730664" r="1.0283844979134726" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="306.3042182065004" cy="794.8069692692513" r="1.4106272623492369" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="554.038073338346" cy="852.1622426592777" r="1.2913929986883446" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="240.1688641259356" cy="849.3291758769681" r="1.4065378490356681" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="145.5389083658261" cy="862.5439170608425" r="0.6853565123995172" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="599.0923124354686" cy="897.6028815788575" r="1.144076839520321" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="349.1655147027856" cy="768.3978556289499" r="0.9940495147114609" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="301.4152722466607" cy="828.2223900513889" r="0.5776992853457354" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="650.4165660470429" cy="847.4784891001067" r="1.0616816117510903" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="601.9161827881052" cy="906.6211389877207" r="1.0496815025779" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="416.3686023432477" cy="898.8353361762204" r="0.8725452677533316" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="638.0446701787491" cy="768.8476539328759" r="1.2961211433460016" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="406.2593169925096" cy="863.3385153096499" r="1.4904167675348736" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="214.75747372472046" cy="829.3652162568342" r="1.2996153795359904" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="542.454707748267" cy="847.8276001718923" r="1.2770367389890476" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="499.25467997755413" cy="902.328406358343" r="1.1501759138851715" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="303.96324393653913" cy="810.3128907886647" r="0.5820591647490224" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="154.70451914702096" cy="771.7177824984536" r="1.4756302372196832" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="165.52284139265237" cy="860.2457935046523" r="0.634106127817758" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="678.971648537902" cy="849.1748644298763" r="0.6770492832979859" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="592.1580365904907" cy="900.8979360148377" r="1.477902702876063" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="216.93291422453441" cy="828.6027712306512" r="1.160775945667659" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="253.71837975773917" cy="854.9512610286514" r="1.2011089498264882" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="545.4617489901509" cy="895.1853799206626" r="1.2509151623422734" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="255.52628832274203" cy="884.3754760375298" r="0.9336870551563397" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="183.37870463488665" cy="768.2729767053984" r="1.1222740065678662" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="300.6465060262544" cy="779.8538177971475" r="0.9900601608448304" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="336.06291089361537" cy="816.3900627071965" r="1.0662456475393758" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="413.13018930228395" cy="848.7080719491379" r="1.4872589152662998" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="640.760777577615" cy="812.1926308760686" r="1.3719880846089911" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="274.0174615729882" cy="913.0465435127655" r="0.5575888150792285" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="275.8196659445938" cy="912.2363644999989" r="1.1614352448427288" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="517.4323090438866" cy="797.3007225374691" r="0.6216689131214655" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="674.9225901084437" cy="775.4167302274766" r="0.6754147018714027" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="345.9699075374653" cy="894.4351270638758" r="1.1792346338962458" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="699.0165739539088" cy="888.1244435691453" r="0.9372561143263369" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="644.9164602496172" cy="815.028275886803" r="0.5514978217438002" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="674.747480051054" cy="904.2277252063043" r="1.1602848372615884" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="376.5715692542007" cy="797.1963350320289" r="0.719319646217431" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="119.95488279951422" cy="779.8432407950364" r="0.9790916554147561" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="635.4783167725931" cy="912.2955767952647" r="1.0143581867397318" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="496.92835902221884" cy="838.9284090723798" r="1.2761869161568766" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="517.3171775126627" cy="920.6072320653902" r="1.3456447938061156" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="499.67142096036787" cy="858.2768997537752" r="0.6686747113624832" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="371.3241064705526" cy="835.7288024704995" r="0.654298351069224" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="203.4380608224668" cy="829.9894738920376" r="0.6758124176886278" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="466.23601442511455" cy="816.827817262806" r="1.4878839397673431" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="503.5113248553305" cy="846.626504393771" r="0.933902141863482" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="321.59859663902307" cy="796.6621328494319" r="1.4628638762635386" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="646.2658745874356" cy="867.7134729348483" r="1.1500985739912828" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <circle cx="167.62933561459488" cy="850.5570706189651" r="0.6669785881286462" fill="#b9956d" stroke-width="1" opacity=".36" />
+    <g id="reservoir-groundwater-flow">
+      <path d="M 410 852 L 352 857 L 295 848 L 244 862 L 193 853 L 170 850" fill="none" stroke="#e3aa6e" stroke-width="7" stroke-linejoin="round" opacity=".8" />
+      <g id="injection-through-fractures">
+        <line x1="393" y1="853" x2="345" y2="856" stroke="#2988b6" stroke-width="3" id="injection-through-fractures-shaft" />
+        <polygon points="345.00,856.00 357.29,860.28 356.66,850.22" fill="#2988b6" id="injection-through-fractures-head" />
+      </g>
+      <g id="warming-through-fractures">
+        <line x1="318" y1="851" x2="275" y2="854" stroke="#d98b43" stroke-width="3" id="warming-through-fractures-shaft" />
+        <polygon points="275.00,854.00 287.32,858.19 286.62,848.14" fill="#d98b43" id="warming-through-fractures-head" />
+      </g>
+      <g id="heated-water-toward-production">
+        <line x1="227" y1="859" x2="185" y2="852" stroke="#c55337" stroke-width="3" id="heated-water-toward-production-shaft" />
+        <polygon points="185.00,852.00 196.01,858.94 197.67,849.00" fill="#c55337" id="heated-water-toward-production-head" />
+      </g>
+    </g>
+    <text id="fracture-reservoir-label" x="574" y="795" fill="#7b4a2e" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="bold" text-anchor="middle">
+      <tspan x="574" dy="0">中深层裂隙储层</tspan>
+      <tspan x="574" dy="27.55">裂隙连通 · 水岩换热</tspan>
+    </text>
+    <text id="reservoir-flow-label" x="272" y="891" fill="#815837" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="normal" text-anchor="middle">回灌水沿裂隙流动并吸热</text>
+    <g id="natural-rock-heat-0">
+      <line x1="230" y1="920" x2="230" y2="898" stroke="#d08a3a" stroke-width="2.5" id="natural-rock-heat-0-shaft" />
+      <polygon points="230.00,898.00 226.22,907.00 233.78,907.00" fill="#d08a3a" id="natural-rock-heat-0-head" />
+    </g>
+    <g id="natural-rock-heat-1">
+      <line x1="330" y1="920" x2="330" y2="898" stroke="#d08a3a" stroke-width="2.5" id="natural-rock-heat-1-shaft" />
+      <polygon points="330.00,898.00 326.22,907.00 333.78,907.00" fill="#d08a3a" id="natural-rock-heat-1-head" />
+    </g>
+    <g id="natural-rock-heat-2">
+      <line x1="430" y1="920" x2="430" y2="898" stroke="#d08a3a" stroke-width="2.5" id="natural-rock-heat-2-shaft" />
+      <polygon points="430.00,898.00 426.22,907.00 433.78,907.00" fill="#d08a3a" id="natural-rock-heat-2-head" />
+    </g>
+    <g id="natural-rock-heat-3">
+      <line x1="540" y1="920" x2="540" y2="898" stroke="#d08a3a" stroke-width="2.5" id="natural-rock-heat-3-shaft" />
+      <polygon points="540.00,898.00 536.22,907.00 543.78,907.00" fill="#d08a3a" id="natural-rock-heat-3-head" />
+    </g>
+    <g id="natural-rock-heat-4">
+      <line x1="640" y1="920" x2="640" y2="898" stroke="#d08a3a" stroke-width="2.5" id="natural-rock-heat-4-shaft" />
+      <polygon points="640.00,898.00 636.22,907.00 643.78,907.00" fill="#d08a3a" id="natural-rock-heat-4-head" />
+    </g>
+    <text id="formation-heat-label" x="561" y="920" fill="#86532b" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="normal" text-anchor="middle">围岩持续供热</text>
+  </g>
+  <g id="geothermal-primary-circuit">
+    <g id="production-well">
+      <rect x="157" y="555" width="26" height="298" fill="#eef1f1" stroke="#8c9ca3" stroke-width="1.5" rx="0" />
+      <line x1="157" y1="803" x2="162" y2="803" stroke="#6f828a" stroke-width="2" />
+      <line x1="178" y1="803" x2="183" y2="803" stroke="#6f828a" stroke-width="2" />
+      <line x1="157" y1="811" x2="162" y2="811" stroke="#6f828a" stroke-width="2" />
+      <line x1="178" y1="811" x2="183" y2="811" stroke="#6f828a" stroke-width="2" />
+      <line x1="157" y1="819" x2="162" y2="819" stroke="#6f828a" stroke-width="2" />
+      <line x1="178" y1="819" x2="183" y2="819" stroke="#6f828a" stroke-width="2" />
+      <line x1="157" y1="827" x2="162" y2="827" stroke="#6f828a" stroke-width="2" />
+      <line x1="178" y1="827" x2="183" y2="827" stroke="#6f828a" stroke-width="2" />
+      <line x1="157" y1="835" x2="162" y2="835" stroke="#6f828a" stroke-width="2" />
+      <line x1="178" y1="835" x2="183" y2="835" stroke="#6f828a" stroke-width="2" />
+      <line x1="157" y1="843" x2="162" y2="843" stroke="#6f828a" stroke-width="2" />
+      <line x1="178" y1="843" x2="183" y2="843" stroke="#6f828a" stroke-width="2" />
+      <rect x="152" y="546" width="36" height="12" fill="#b9c8cc" stroke="#637d8b" stroke-width="1" rx="3" />
+    </g>
+    <text id="production-well-label" x="95" y="537" fill="#264b61" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="bold" text-anchor="middle">开采井</text>
+    <g id="reinjection-well">
+      <rect x="397" y="555" width="26" height="298" fill="#eef1f1" stroke="#8c9ca3" stroke-width="1.5" rx="0" />
+      <line x1="397" y1="803" x2="402" y2="803" stroke="#6f828a" stroke-width="2" />
+      <line x1="418" y1="803" x2="423" y2="803" stroke="#6f828a" stroke-width="2" />
+      <line x1="397" y1="811" x2="402" y2="811" stroke="#6f828a" stroke-width="2" />
+      <line x1="418" y1="811" x2="423" y2="811" stroke="#6f828a" stroke-width="2" />
+      <line x1="397" y1="819" x2="402" y2="819" stroke="#6f828a" stroke-width="2" />
+      <line x1="418" y1="819" x2="423" y2="819" stroke="#6f828a" stroke-width="2" />
+      <line x1="397" y1="827" x2="402" y2="827" stroke="#6f828a" stroke-width="2" />
+      <line x1="418" y1="827" x2="423" y2="827" stroke="#6f828a" stroke-width="2" />
+      <line x1="397" y1="835" x2="402" y2="835" stroke="#6f828a" stroke-width="2" />
+      <line x1="418" y1="835" x2="423" y2="835" stroke="#6f828a" stroke-width="2" />
+      <line x1="397" y1="843" x2="402" y2="843" stroke="#6f828a" stroke-width="2" />
+      <line x1="418" y1="843" x2="423" y2="843" stroke="#6f828a" stroke-width="2" />
+      <rect x="392" y="546" width="36" height="12" fill="#b9c8cc" stroke="#637d8b" stroke-width="1" rx="3" />
+    </g>
+    <text id="reinjection-well-label" x="480" y="537" fill="#264b61" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="bold" text-anchor="middle">回灌井</text>
+    <g id="production-well-hot-water">
+      <path d="M 170 850 V 312 Q 170 300 182 300 H 540" fill="none" stroke="#fff" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" />
+      <path d="M 170 850 V 312 Q 170 300 182 300 H 540" fill="none" stroke="#c75f36" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" id="production-well-hot-water-editable-pipe" />
+    </g>
+    <g id="reinjection-cool-water">
+      <path d="M 540 430 H 422 Q 410 430 410 442 V 850" fill="none" stroke="#fff" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" />
+      <path d="M 540 430 H 422 Q 410 430 410 442 V 850" fill="none" stroke="#2584b4" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" id="reinjection-cool-water-editable-pipe" />
+    </g>
+    <g id="production-upflow-deep">
+      <line x1="170" y1="802" x2="170" y2="761" stroke="#c75f36" stroke-width="3" id="production-upflow-deep-shaft" />
+      <polygon points="170.00,761.00 164.96,773.00 175.04,773.00" fill="#c75f36" id="production-upflow-deep-head" />
+    </g>
+    <g id="production-upflow-surface">
+      <line x1="170" y1="468" x2="170" y2="429" stroke="#c75f36" stroke-width="3" id="production-upflow-surface-shaft" />
+      <polygon points="170.00,429.00 164.96,441.00 175.04,441.00" fill="#c75f36" id="production-upflow-surface-head" />
+    </g>
+    <g id="geothermal-feed-to-exchanger">
+      <line x1="445" y1="300" x2="486" y2="300" stroke="#c75f36" stroke-width="3" id="geothermal-feed-to-exchanger-shaft" />
+      <polygon points="486.00,300.00 474.00,294.96 474.00,305.04" fill="#c75f36" id="geothermal-feed-to-exchanger-head" />
+    </g>
+    <g id="reinjection-surface-flow">
+      <line x1="496" y1="430" x2="453" y2="430" stroke="#2584b4" stroke-width="3" id="reinjection-surface-flow-shaft" />
+      <polygon points="453.00,430.00 465.00,435.04 465.00,424.96" fill="#2584b4" id="reinjection-surface-flow-head" />
+    </g>
+    <g id="reinjection-downflow-shallow">
+      <line x1="410" y1="623" x2="410" y2="666" stroke="#2584b4" stroke-width="3" id="reinjection-downflow-shallow-shaft" />
+      <polygon points="410.00,666.00 415.04,654.00 404.96,654.00" fill="#2584b4" id="reinjection-downflow-shallow-head" />
+    </g>
+    <g id="reinjection-downflow-deep">
+      <line x1="410" y1="755" x2="410" y2="794" stroke="#2584b4" stroke-width="3" id="reinjection-downflow-deep-shaft" />
+      <polygon points="410.00,794.00 415.04,782.00 404.96,782.00" fill="#2584b4" id="reinjection-downflow-deep-head" />
+    </g>
+    <g id="submersible-production-pump">
+      <rect x="161" y="703" width="18" height="40" fill="#4b6879" stroke="#fff" stroke-width="1.2" rx="4" />
+      <polygon points="170,710 164,722 176,722" fill="#fff" />
+      <line x1="179" y1="723" x2="225" y2="723" stroke="#728898" stroke-width="1" />
+      <text id="submersible-pump-label" x="233" y="730" fill="#456373" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="normal" text-anchor="start">潜水泵</text>
+    </g>
+    <g id="geothermal-filter">
+      <rect x="327" y="285" width="34" height="30" fill="#fff" stroke="#c75f36" stroke-width="2" rx="5" />
+      <line x1="335" y1="287" x2="328" y2="313" stroke="#ad7b61" stroke-width="1" />
+      <line x1="344" y1="287" x2="337" y2="313" stroke="#ad7b61" stroke-width="1" />
+      <line x1="353" y1="287" x2="346" y2="313" stroke="#ad7b61" stroke-width="1" />
+      <text id="geothermal-filter-label" x="344" y="271" fill="#80614f" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="normal" text-anchor="middle">除砂 / 过滤</text>
+    </g>
+    <text id="geothermal-hot-water-label" x="251" y="335" fill="#c75f36" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="normal" text-anchor="middle">地热热水</text>
+    <text id="cooled-reinjection-water-label" x="474" y="467" fill="#2584b4" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="normal" text-anchor="middle">降温回灌</text>
+  </g>
+  <g id="plate-heat-exchanger">
+    <rect x="540" y="269" width="110" height="193" fill="#edf4f7" stroke="#547d91" stroke-width="2" rx="12" />
+    <rect x="555" y="285" width="81" height="163" fill="#fff" stroke="#92aebb" stroke-width="1" rx="5" />
+    <path d="M 562 288 L 565 310 L 560 331 L 565 352 L 560 373 L 565 394 L 560 417 L 564 444" fill="none" stroke="#c75f36" stroke-width="2.2" />
+    <path d="M 570 288 L 573 310 L 568 331 L 573 352 L 568 373 L 573 394 L 568 417 L 572 444" fill="none" stroke="#dc9844" stroke-width="2.2" />
+    <path d="M 578 288 L 581 310 L 576 331 L 581 352 L 576 373 L 581 394 L 576 417 L 580 444" fill="none" stroke="#c75f36" stroke-width="2.2" />
+    <path d="M 586 288 L 589 310 L 584 331 L 589 352 L 584 373 L 589 394 L 584 417 L 588 444" fill="none" stroke="#dc9844" stroke-width="2.2" />
+    <path d="M 594 288 L 597 310 L 592 331 L 597 352 L 592 373 L 597 394 L 592 417 L 596 444" fill="none" stroke="#c75f36" stroke-width="2.2" />
+    <path d="M 602 288 L 605 310 L 600 331 L 605 352 L 600 373 L 605 394 L 600 417 L 604 444" fill="none" stroke="#dc9844" stroke-width="2.2" />
+    <path d="M 610 288 L 613 310 L 608 331 L 613 352 L 608 373 L 613 394 L 608 417 L 612 444" fill="none" stroke="#c75f36" stroke-width="2.2" />
+    <path d="M 618 288 L 621 310 L 616 331 L 621 352 L 616 373 L 621 394 L 616 417 L 620 444" fill="none" stroke="#dc9844" stroke-width="2.2" />
+    <path d="M 626 288 L 629 310 L 624 331 L 629 352 L 624 373 L 629 394 L 624 417 L 628 444" fill="none" stroke="#c75f36" stroke-width="2.2" />
+    <circle cx="540" cy="300" r="5" fill="#fff" stroke="#547d91" stroke-width="1.4" />
+    <circle cx="540" cy="430" r="5" fill="#fff" stroke="#547d91" stroke-width="1.4" />
+    <circle cx="650" cy="300" r="5" fill="#fff" stroke="#547d91" stroke-width="1.4" />
+    <circle cx="650" cy="430" r="5" fill="#fff" stroke="#547d91" stroke-width="1.4" />
+    <text id="exchanger-label" x="595" y="242" fill="#355f76" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">板式换热器</text>
+    <text id="exchanger-isolation-label" x="595" y="493" fill="#5a7585" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="normal" text-anchor="middle">换热隔离 · 水质保护</text>
+    <g id="exchanger-heat-transfer">
+      <line x1="582" y1="365" x2="608" y2="365" stroke="#b88341" stroke-width="2" id="exchanger-heat-transfer-shaft" />
+      <polygon points="608.00,365.00 600.00,361.64 600.00,368.36" fill="#b88341" id="exchanger-heat-transfer-head" />
+    </g>
+  </g>
+  <g id="heat-pump-source-water-circuit">
+    <g id="warm-source-feed">
+      <path d="M 650 300 H 782" fill="none" stroke="#fff" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" />
+      <path d="M 650 300 H 782" fill="none" stroke="#dc9844" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" id="warm-source-feed-editable-pipe" />
+    </g>
+    <g id="cold-source-return">
+      <path d="M 782 430 H 650" fill="none" stroke="#fff" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" />
+      <path d="M 782 430 H 650" fill="none" stroke="#639bab" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" id="cold-source-return-editable-pipe" />
+    </g>
+    <g id="warm-source-to-evaporator">
+      <line x1="671" y1="300" x2="719" y2="300" stroke="#dc9844" stroke-width="3" id="warm-source-to-evaporator-shaft" />
+      <polygon points="719.00,300.00 709.00,295.80 709.00,304.20" fill="#dc9844" id="warm-source-to-evaporator-head" />
+    </g>
+    <g id="cool-source-to-exchanger">
+      <line x1="721" y1="430" x2="666" y2="430" stroke="#639bab" stroke-width="3" id="cool-source-to-exchanger-shaft" />
+      <polygon points="666.00,430.00 676.00,434.20 676.00,425.80" fill="#639bab" id="cool-source-to-exchanger-head" />
+    </g>
+    <g id="source-circulation-pump">
+      <circle cx="704" cy="430" r="17" fill="#fff" stroke="#639bab" stroke-width="2.5" />
+      <polygon points="695,430 710,421 710,439" fill="#639bab" />
+    </g>
+    <text id="source-pump-label" x="705" y="474" fill="#587f8e" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="normal" text-anchor="middle">
+      <tspan x="705" dy="0">源侧</tspan>
+      <tspan x="705" dy="19.5">循环泵</tspan>
+    </text>
+  </g>
+  <g id="heat-pump-refrigeration-cycle">
+    <text id="heat-pump-cycle-label" x="946" y="556" fill="#376b6e" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="normal" text-anchor="middle">热泵机组：制冷剂闭式循环</text>
+    <g id="evaporator">
+      <rect x="782" y="274" width="59" height="174" fill="#e1f2f7" stroke="#5390a8" stroke-width="1.8" rx="9" />
+      <path d="M 782 300 H 812 Q 833 300 833 318 Q 833 335 812 335 Q 792 335 792 353 Q 792 371 812 371 Q 833 371 833 390 Q 833 408 812 408 H 792 V 430 H 782" fill="none" stroke="#5798b2" stroke-width="3" />
+      <text id="evaporator-label" x="812" y="367" fill="#2e6178" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">蒸发器</text>
+    </g>
+    <g id="condenser">
+      <rect x="1052" y="274" width="59" height="174" fill="#fbece3" stroke="#bf825a" stroke-width="1.8" rx="9" />
+      <path d="M 1111 300 H 1083 Q 1061 300 1061 318 Q 1061 336 1083 336 Q 1102 336 1102 355 Q 1102 373 1083 373 Q 1061 373 1061 392 Q 1061 412 1083 412 H 1111 V 430" fill="none" stroke="#c88454" stroke-width="3" />
+      <text id="condenser-label" x="1082" y="367" fill="#925e3c" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">冷凝器</text>
+    </g>
+    <g id="refrigerant-low-pressure-vapor">
+      <path d="M 813 274 V 247 H 924" fill="none" stroke="#fff" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" />
+      <path d="M 813 274 V 247 H 924" fill="none" stroke="#3a92ad" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" id="refrigerant-low-pressure-vapor-editable-pipe" />
+    </g>
+    <g id="refrigerant-high-pressure-vapor">
+      <path d="M 957 247 H 1082 V 274" fill="none" stroke="#fff" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" />
+      <path d="M 957 247 H 1082 V 274" fill="none" stroke="#c85d51" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" id="refrigerant-high-pressure-vapor-editable-pipe" />
+    </g>
+    <g id="refrigerant-high-pressure-liquid">
+      <path d="M 1082 448 V 471 H 958" fill="none" stroke="#fff" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" />
+      <path d="M 1082 448 V 471 H 958" fill="none" stroke="#c85d51" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" id="refrigerant-high-pressure-liquid-editable-pipe" />
+    </g>
+    <g id="refrigerant-low-pressure-mixture">
+      <path d="M 924 471 H 813 V 448" fill="none" stroke="#fff" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" />
+      <path d="M 924 471 H 813 V 448" fill="none" stroke="#3a92ad" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" id="refrigerant-low-pressure-mixture-editable-pipe" />
+    </g>
+    <g id="refrigerant-vapor-direction">
+      <line x1="869" y1="247" x2="897" y2="247" stroke="#3a92ad" stroke-width="2" id="refrigerant-vapor-direction-shaft" />
+      <polygon points="897.00,247.00 889.00,243.64 889.00,250.36" fill="#3a92ad" id="refrigerant-vapor-direction-head" />
+    </g>
+    <g id="refrigerant-hot-direction">
+      <line x1="998" y1="247" x2="1030" y2="247" stroke="#c85d51" stroke-width="2" id="refrigerant-hot-direction-shaft" />
+      <polygon points="1030.00,247.00 1022.00,243.64 1022.00,250.36" fill="#c85d51" id="refrigerant-hot-direction-head" />
+    </g>
+    <g id="refrigerant-liquid-direction">
+      <line x1="1031" y1="471" x2="1004" y2="471" stroke="#c85d51" stroke-width="2" id="refrigerant-liquid-direction-shaft" />
+      <polygon points="1004.00,471.00 1012.00,474.36 1012.00,467.64" fill="#c85d51" id="refrigerant-liquid-direction-head" />
+    </g>
+    <g id="refrigerant-expanded-direction">
+      <line x1="899" y1="471" x2="871" y2="471" stroke="#3a92ad" stroke-width="2" id="refrigerant-expanded-direction-shaft" />
+      <polygon points="871.00,471.00 879.00,474.36 879.00,467.64" fill="#3a92ad" id="refrigerant-expanded-direction-head" />
+    </g>
+    <g id="compressor">
+      <circle cx="941" cy="247" r="19" fill="#fff" stroke="#567681" stroke-width="2" />
+      <polygon points="951,247 931,237 931,257" fill="#64858e" />
+      <text id="compressor-label" x="943" y="288" fill="#37656f" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="normal" text-anchor="middle">压缩机</text>
+    </g>
+    <g id="expansion-valve">
+      <polygon points="926,461 942,471 926,481" fill="#fff" stroke="#547a8b" stroke-width="1.6" />
+      <polygon points="958,461 942,471 958,481" fill="#fff" stroke="#547a8b" stroke-width="1.6" />
+      <text id="expansion-valve-label" x="943" y="505" fill="#446f7d" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="normal" text-anchor="middle">膨胀阀</text>
+    </g>
+    <g id="evaporator-heat-absorption">
+      <line x1="851" y1="351" x2="886" y2="351" stroke="#d59a45" stroke-width="3" id="evaporator-heat-absorption-shaft" />
+      <polygon points="886.00,351.00 875.00,346.38 875.00,355.62" fill="#d59a45" id="evaporator-heat-absorption-head" />
+    </g>
+    <text id="heat-absorption-label" x="869" y="332" fill="#a6772e" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="normal" text-anchor="middle">吸热</text>
+    <g id="condenser-heat-release">
+      <line x1="992" y1="351" x2="1033" y2="351" stroke="#c97443" stroke-width="3" id="condenser-heat-release-shaft" />
+      <polygon points="1033.00,351.00 1022.00,346.38 1022.00,355.62" fill="#c97443" id="condenser-heat-release-head" />
+    </g>
+    <text id="heat-release-label" x="1012" y="332" fill="#b56b3d" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="normal" text-anchor="middle">放热</text>
+    <g id="electrical-power-input">
+      <rect x="903" y="368" width="79" height="48" fill="#fff" stroke="#c9dcd9" stroke-width="1" rx="9" />
+      <path d="M 947 375 L 934 393 H 943 L 938 408 L 955 387 H 945 Z" fill="#bd9640" stroke-width="1" />
+      <text id="electricity-input-label" x="943" y="436" fill="#8d732d" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="normal" text-anchor="middle">电能输入 W</text>
+      <g id="electricity-to-compressor">
+        <line x1="942" y1="365" x2="942" y2="309" stroke="#b59850" stroke-width="2" id="electricity-to-compressor-shaft" />
+        <polygon points="942.00,309.00 938.64,317.00 945.36,317.00" fill="#b59850" id="electricity-to-compressor-head" />
+      </g>
+    </g>
+  </g>
+  <g id="building-heating-water-circuit">
+    <g id="building-hot-supply">
+      <path d="M 1111 300 H 1350" fill="none" stroke="#fff" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" />
+      <path d="M 1111 300 H 1350" fill="none" stroke="#cd623e" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" id="building-hot-supply-editable-pipe" />
+    </g>
+    <g id="building-cool-return">
+      <path d="M 1350 430 H 1111" fill="none" stroke="#fff" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" />
+      <path d="M 1350 430 H 1111" fill="none" stroke="#3d83ae" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" id="building-cool-return-editable-pipe" />
+    </g>
+    <g id="heating-supply-direction">
+      <line x1="1174" y1="300" x2="1230" y2="300" stroke="#cd623e" stroke-width="3" id="heating-supply-direction-shaft" />
+      <polygon points="1230.00,300.00 1218.00,294.96 1218.00,305.04" fill="#cd623e" id="heating-supply-direction-head" />
+    </g>
+    <g id="heating-return-direction">
+      <line x1="1222" y1="430" x2="1172" y2="430" stroke="#3d83ae" stroke-width="3" id="heating-return-direction-shaft" />
+      <polygon points="1172.00,430.00 1184.00,435.04 1184.00,424.96" fill="#3d83ae" id="heating-return-direction-head" />
+    </g>
+    <g id="heating-circulation-pump">
+      <circle cx="1255" cy="430" r="17" fill="#fff" stroke="#3d83ae" stroke-width="2.5" />
+      <polygon points="1246,430 1261,421 1261,439" fill="#3d83ae" />
+    </g>
+    <text id="heating-pump-label" x="1255" y="481" fill="#4d7892" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="normal" text-anchor="middle">供暖循环泵</text>
+    <text id="building-supply-label" x="1221" y="278" fill="#cd623e" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="bold" text-anchor="middle">供水</text>
+    <text id="building-return-label" x="1174" y="458" fill="#3d83ae" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="normal" text-anchor="middle">回水</text>
+    <g id="expansion-vessel">
+      <g id="expansion-vessel-connection">
+        <path d="M 1194 430 V 486" fill="none" stroke="#fff" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" />
+        <path d="M 1194 430 V 486" fill="none" stroke="#3d83ae" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" id="expansion-vessel-connection-editable-pipe" />
+      </g>
+      <rect x="1174" y="486" width="40" height="45" fill="#e4eef4" stroke="#7193a9" stroke-width="1.4" rx="16" />
+      <line x1="1178" y1="508" x2="1210" y2="508" stroke="#7898aa" stroke-width="1" />
+      <text id="expansion-vessel-label" x="1194" y="555" fill="#638295" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="normal" text-anchor="middle">膨胀罐</text>
+    </g>
+  </g>
+  <g id="residential-building-and-heating-terminals">
+    <path d="M 1348 239 L 1438 204 L 1529 239 Z" fill="#587d94" stroke="#355f77" stroke-width="1.4" />
+    <rect x="1348" y="239" width="181" height="258" fill="url(#residential-building-gradient)" stroke="#6b93aa" stroke-width="1.4" rx="4" />
+    <rect x="1368" y="254" width="24" height="36" fill="#f9fdff" stroke="#96b6c8" stroke-width="1.2" rx="2" />
+    <line x1="1380" y1="254" x2="1380" y2="290" stroke="#bdd2de" stroke-width="1" />
+    <line x1="1368" y1="272" x2="1392" y2="272" stroke="#bdd2de" stroke-width="1" />
+    <rect x="1406" y="254" width="24" height="36" fill="#f9fdff" stroke="#96b6c8" stroke-width="1.2" rx="2" />
+    <line x1="1418" y1="254" x2="1418" y2="290" stroke="#bdd2de" stroke-width="1" />
+    <line x1="1406" y1="272" x2="1430" y2="272" stroke="#bdd2de" stroke-width="1" />
+    <rect x="1444" y="254" width="24" height="36" fill="#f9fdff" stroke="#96b6c8" stroke-width="1.2" rx="2" />
+    <line x1="1456" y1="254" x2="1456" y2="290" stroke="#bdd2de" stroke-width="1" />
+    <line x1="1444" y1="272" x2="1468" y2="272" stroke="#bdd2de" stroke-width="1" />
+    <rect x="1482" y="254" width="24" height="36" fill="#f9fdff" stroke="#96b6c8" stroke-width="1.2" rx="2" />
+    <line x1="1494" y1="254" x2="1494" y2="290" stroke="#bdd2de" stroke-width="1" />
+    <line x1="1482" y1="272" x2="1506" y2="272" stroke="#bdd2de" stroke-width="1" />
+    <rect x="1368" y="323" width="24" height="36" fill="#f9fdff" stroke="#96b6c8" stroke-width="1.2" rx="2" />
+    <line x1="1380" y1="323" x2="1380" y2="359" stroke="#bdd2de" stroke-width="1" />
+    <line x1="1368" y1="341" x2="1392" y2="341" stroke="#bdd2de" stroke-width="1" />
+    <rect x="1406" y="323" width="24" height="36" fill="#f9fdff" stroke="#96b6c8" stroke-width="1.2" rx="2" />
+    <line x1="1418" y1="323" x2="1418" y2="359" stroke="#bdd2de" stroke-width="1" />
+    <line x1="1406" y1="341" x2="1430" y2="341" stroke="#bdd2de" stroke-width="1" />
+    <rect x="1444" y="323" width="24" height="36" fill="#f9fdff" stroke="#96b6c8" stroke-width="1.2" rx="2" />
+    <line x1="1456" y1="323" x2="1456" y2="359" stroke="#bdd2de" stroke-width="1" />
+    <line x1="1444" y1="341" x2="1468" y2="341" stroke="#bdd2de" stroke-width="1" />
+    <rect x="1482" y="323" width="24" height="36" fill="#f9fdff" stroke="#96b6c8" stroke-width="1.2" rx="2" />
+    <line x1="1494" y1="323" x2="1494" y2="359" stroke="#bdd2de" stroke-width="1" />
+    <line x1="1482" y1="341" x2="1506" y2="341" stroke="#bdd2de" stroke-width="1" />
+    <g id="editable-heating-terminal">
+      <rect x="1368" y="369" width="140" height="82" fill="#f8fcfd" stroke="#a7c0cd" stroke-width="1" rx="6" />
+      <g id="radiator-coil">
+        <path d="M 1350 300 H 1338 V 378 H 1381 V 398 H 1398 V 379 H 1415 V 399 H 1432 V 379 H 1449 V 399 H 1466 V 379 H 1483 V 414 H 1338 V 430 H 1350" fill="none" stroke="#fff" stroke-width="8.5" stroke-linejoin="round" stroke-linecap="round" />
+        <path d="M 1350 300 H 1338 V 378 H 1381 V 398 H 1398 V 379 H 1415 V 399 H 1432 V 379 H 1449 V 399 H 1466 V 379 H 1483 V 414 H 1338 V 430 H 1350" fill="none" stroke="#cd623e" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" id="radiator-coil-editable-pipe" />
+      </g>
+      <text id="radiator-terminal-label" x="1440" y="439" fill="#59778b" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="normal" text-anchor="middle">散热器 / 地板采暖</text>
+    </g>
+    <text id="heated-building-label" x="1438" y="535" fill="#345c74" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="bold" text-anchor="middle">建筑供暖末端</text>
+    <text id="building-heating-is-closed" x="1438" y="565" fill="#6a8597" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="normal" text-anchor="middle">供暖水闭式循环</text>
+  </g>
+  <g id="system-principle-and-loop-explanations">
+    <rect x="754" y="594" width="786" height="338" fill="#f2f7fa" stroke="#d3e2eb" stroke-width="1.3" rx="18" />
+    <text id="principle-title" x="791" y="635" fill="#214d69" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="bold" text-anchor="start">系统工作机理</text>
+    <text id="principle-explanation" x="791" y="675" fill="#46677b" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="normal" text-anchor="start">
+      <tspan x="791" dy="0">① 地热水从裂隙储层开采，经换热降温后回灌。</tspan>
+      <tspan x="791" dy="36.12">② 板式换热器将地热水与热泵源侧水路隔离。</tspan>
+      <tspan x="791" dy="36.12">③ 热泵消耗电能提升供热温度，供暖水输送热量。</tspan>
+    </text>
+    <rect x="792" y="777" width="710" height="62" fill="#fff" stroke="#d8e6ee" stroke-width="1" rx="12" />
+    <text id="heat-balance" x="1147" y="818" fill="#1e6072" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="bold" text-anchor="middle">热泵能量平衡：Qₕ = Qɢ + W（忽略热损失）</text>
+    <text id="heat-balance-symbols" x="791" y="859" fill="#557f91" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="normal" text-anchor="start">Qₕ：供热量；Qɢ：地热取热量；W：压缩机电能输入</text>
+    <text id="circuit-isolation-note" x="791" y="888" fill="#356578" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="normal" text-anchor="start">地热水、源侧水、供暖水及制冷剂四个回路相互隔离。</text>
+    <text id="engineering-scope-note" x="791" y="919" fill="#6b8493" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="normal" text-anchor="start">原理示意：非比例；具体井距、深度、温度和回灌条件需勘查设计。</text>
+  </g>
+  <g id="pipe-color-legend">
+    <line x1="85" y1="969" x2="131" y2="969" stroke="#c75f36" stroke-width="5" stroke-linecap="round" />
+    <text id="legend-0" x="146" y="976" fill="#587385" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="normal" text-anchor="start">地热热水</text>
+    <line x1="352" y1="969" x2="398" y2="969" stroke="#2584b4" stroke-width="5" stroke-linecap="round" />
+    <text id="legend-1" x="413" y="976" fill="#587385" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="normal" text-anchor="start">降温回灌水</text>
+    <line x1="657" y1="969" x2="703" y2="969" stroke="#dc9844" stroke-width="5" stroke-linecap="round" />
+    <text id="legend-2" x="718" y="976" fill="#587385" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="normal" text-anchor="start">源侧循环水</text>
+    <line x1="960" y1="969" x2="1006" y2="969" stroke="#cd623e" stroke-width="5" stroke-linecap="round" />
+    <text id="legend-3" x="1021" y="976" fill="#587385" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="normal" text-anchor="start">供暖供水</text>
+    <line x1="1259" y1="969" x2="1305" y2="969" stroke="#3d83ae" stroke-width="5" stroke-linecap="round" />
+    <text id="legend-4" x="1320" y="976" fill="#587385" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="normal" text-anchor="start">供暖回水</text>
+  </g>
+  <metadata>Original editable schematic for a fractured medium-deep geothermal heat-pump coupled heating system. Doublet production/reinjection wells, plate heat exchanger, isolated source loop, vapor-compression heat pump and closed building heating loop. Conceptual diagram, not site-specific design. All text and equipment are native SVG objects.</metadata>
+</svg>
